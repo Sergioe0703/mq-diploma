@@ -654,3 +654,42 @@
     </div>
   </body>
 </html>
+<!--Всплывающий блок-->
+<div class="popup_hidden">
+  <div class="popup_container">
+    <form class="popup-form">
+      <div>
+        <h3 class="popup-title">Ваш фидбек</h3>
+      </div>
+      <label class="select-group">
+        <span class="label-text">Как часто вы заходите на сайт?</span>
+        <select class="popup-select">
+          <option value="every-day" selected="">Почти каждый день</option>
+          <option value="day">Раз в несколько дней</option>
+          <option value="week">Раз в несколько недель</option>
+          <option value="year">Несколько раз год</option>
+        </select>
+      </label>
+      <div class="radiobutton-group">
+        <span class="label-text">Вы подписаны на e-mail рассылка?</span>
+        <label class="checkbox-group">
+          <input class="popup-radiobutton" type="radio" name="mailling" value="yes"><span class="radiobutton-text">Да</span>
+        </label>
+        <label class="checkbox-group">
+          <input class="popup-radiobutton" type="radio" name="mailling" value="not"><span class="radiobutton-text">Нет</span>
+        </label>
+      </div>
+      <label class="textarea-group">
+        <span class="label-text">Расскажите, какой контент вы хотели бы видеть на нашем
+          сайте?</span>
+        <textarea class="popup-textarea" placeholder="Может, больше рецептов?" required="">            </textarea>
+      </label>
+      <div>
+        <button class="popup-button">Отправить</button>
+      </div>
+    </form>
+    <button class="popup-close" type="button">
+      <span class="popup_buttontext">Закрыть окно</span>
+    </button>
+  </div>
+</div>
